@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --color1:#59eb63d5;
+    --clor2:#0b510a;
+}
+
+body{
+    background: linear-gradient(to bottom,var(--color1), var(--clor2));
+}
+
+h1, #filters{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+#filters input, #filters #status-filter, #filters #gender-filter {
+    padding: 8px 16px;
+    margin: 10px;
+    border: 0;
+    font-size: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer; 
+   
+} 
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;  
+    
+}
+
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.character-card  {
+    
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(172, 250, 184);
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.character-card img{
+    width: 100%;
+    
+}
